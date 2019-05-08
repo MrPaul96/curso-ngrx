@@ -20,9 +20,7 @@ class Store<T> {
   dispatch( action: Action){
 
     this.state = this.reducer(this.state, action);
-
   }
-
 }
 
 
